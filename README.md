@@ -1,6 +1,18 @@
 # DeepFake-Detection-Model🔍
 A deep learning-based DeepFake Image Detection System that classifies images or videos as Real or Fake using an EfficientNetB0 model. The project includes image preprocessing, model training, fine-tuning, evaluation, and a Streamlit web application for testing uploaded data.
 
+# Problem Statement –
+The rapid advancement of Artificial Intelligence and Generative AI has made it increasingly easy to create realistic deepfake images by manipulating or generating human faces and other visual content. These fake images can be used to spread misinformation, damage reputations, commit fraud, and deceive individuals.
+
+Traditional methods of identifying manipulated images through manual inspection are often unreliable because modern deepfakes can appear highly realistic and contain subtle modifications that are difficult for humans to detect.
+
+Therefore, there is a need for an automated Deepfake Detection System that can analyze an input image and determine whether it is Real or Fake. The proposed system uses Deep Learning and Computer Vision techniques, particularly a convolutional neural network-based model, to learn visual patterns and artifacts associated with manipulated images.
+
+The system aims to provide accurate and reliable classification of images as Real or Fake, along with a prediction confidence score. It can be integrated into a user-friendly application where users can upload an image and receive the detection result.
+
+## 🎯 Objective
+The main objective of this project is to develop an automated system capable of identifying manipulated or AI-generated images and distinguishing them from genuine images.
+
 ## 🚀 Features
 
 * 🔍 Detects whether an image/video is **Real or Fake**
@@ -23,10 +35,6 @@ A deep learning-based DeepFake Image Detection System that classifies images or 
 * Streamlit
 * Matplotlib
 * Seaborn
-
-## 🎯 Objective
-
-The main objective of this project is to develop an automated system capable of identifying manipulated or AI-generated images and distinguishing them from genuine images.
 
 ## 📈 Model Evaluation
 
@@ -130,7 +138,6 @@ Image → Preprocessing → my_model.keras → FAKE / REAL
 <img width="1033" height="820" alt="image" src="https://github.com/user-attachments/assets/75be3479-414c-41e6-aaef-afab799ef321" />
 <img width="1074" height="806" alt="2" src="https://github.com/user-attachments/assets/779219b6-f486-4955-981f-991b8394248c" />
 <img width="1030" height="793" alt="3" src="https://github.com/user-attachments/assets/cffb1079-dcd3-491f-854a-92843edd8141" />
-
 
 
 ## ⚠️ Disclaimer
