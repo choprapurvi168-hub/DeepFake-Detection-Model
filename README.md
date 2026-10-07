@@ -134,7 +134,7 @@ Upload an image
 Image → Preprocessing → my_model.keras → FAKE / REAL
 
 
-## Screenshots
+## 📸 Screenshots
 <img width="1033" height="820" alt="image" src="https://github.com/user-attachments/assets/75be3479-414c-41e6-aaef-afab799ef321" />
 <img width="1074" height="806" alt="2" src="https://github.com/user-attachments/assets/779219b6-f486-4955-981f-991b8394248c" />
 <img width="1030" height="793" alt="3" src="https://github.com/user-attachments/assets/cffb1079-dcd3-491f-854a-92843edd8141" />
