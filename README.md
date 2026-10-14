@@ -105,6 +105,24 @@ The system particularly focuses on improving **Fake-class recall**, helping redu
                                 ▼
                          FAKE or REAL
 
+##✨ Key Features
+
+Binary image classification: Predicts REAL or FAKE labels.
+Deep learning: Uses an EfficientNetB0-based image classification model.
+Image preprocessing: Resizes images to the model's expected input dimensions.
+Transfer learning: Reuses pretrained features if enabled in the final training configuration.
+Model evaluation: Supports analysis using accuracy, precision, recall, F1-score, and a confusion matrix.
+Interactive interface: Allows users to upload images through Streamlit.
+Modular implementation: Separates data loading, model training, and application inference.
+
+##⚙️ How It Works
+
+The system follows these steps:
+1. Image upload: The user selects an image through the application.
+2. Preprocessing: The image is loaded and transformed into the input format expected by the model.
+3. Feature extraction: EfficientNetB0 processes the image and extracts learned visual representations.
+4. Classification: The classification head generates an output for the REAL and FAKE categories.
+5. Prediction display: The application presents the predicted class and, if implemented, a confidence score.
 
 ## 💻 Running the Project
 
@@ -133,8 +151,18 @@ Open the Streamlit link in browser
 Upload an image
 Image → Preprocessing → my_model.keras → FAKE / REAL
 
+## ⚠️ Challenges and Limitations
+
+False predictions: Real images may be classified as FAKE, and fake images may be classified as REAL.
+Dataset dependency: Results depend on the quality, diversity, and labels of the training data.
+Generalization: A model trained on particular datasets may struggle with unfamiliar image-generation methods.
+Computational cost: Deep learning training may be slow on CPU-only systems.
+Confidence interpretation: A high model score does not guarantee that an image is authentic or manipulated.
+Limited scope: The current project classifies still images; video-level temporal analysis is outside its scope unless separately implemented.
+
 
 ## 📸 Screenshots
+
 <img width="1033" height="820" alt="image" src="https://github.com/user-attachments/assets/75be3479-414c-41e6-aaef-afab799ef321" />
 <img width="1074" height="806" alt="2" src="https://github.com/user-attachments/assets/779219b6-f486-4955-981f-991b8394248c" />
 <img width="1030" height="793" alt="3" src="https://github.com/user-attachments/assets/cffb1079-dcd3-491f-854a-92843edd8141" />
