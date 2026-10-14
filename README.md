@@ -155,7 +155,7 @@ streamlit run app.py
 Open the Streamlit link in browser
 Upload an image
 Image → Preprocessing → my_model.keras → FAKE / REAL
-
+'''bash
 
 ## 📂 Dataset
 
