@@ -1,0 +1,48 @@
+# Normalize text files across operating systems
+* text=auto
+
+# Python source files
+*.py text eol=lf
+
+# Jupyter notebooks
+*.ipynb text eol=lf
+
+# Documentation and configuration
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Images - treat as binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.gif binary
+*.bmp binary
+
+# Machine learning model files - treat as binary
+*.keras binary
+*.h5 binary
+*.hdf5 binary
+*.pb binary
+*.onnx binary
+*.pt binary
+*.pth binary
+
+# Archives and compiled files
+*.zip binary
+*.gz binary
+*.pyc binary
+
+# Git LFS support for large files (only if using Git LFS)
+# *.keras filter=lfs diff=lfs merge=lfs -text
+# *.h5 filter=lfs diff=lfs merge=lfs -text
