@@ -12,7 +12,12 @@ The system aims to provide accurate and reliable classification of images as Rea
 
 ## 🎯 Objective
 The main objective of this project is to develop an automated system capable of identifying manipulated or AI-generated images and distinguishing them from genuine images.
-
+Apply deep learning techniques to extract meaningful visual features.
+Use EfficientNetB0 for image classification.
+Prepare and process images in a consistent format.
+Evaluate performance using classification metrics.
+Build a simple Streamlit interface for uploading and testing images.
+Identify model limitations and potential improvements.
 ## 🚀 Features
 
 * 🔍 Detects whether an image/video is **Real or Fake**
@@ -105,7 +110,7 @@ The system particularly focuses on improving **Fake-class recall**, helping redu
                                 ▼
                          FAKE or REAL
 
-##✨ Key Features
+## ✨ Key Features
 
 Binary image classification: Predicts REAL or FAKE labels.
 Deep learning: Uses an EfficientNetB0-based image classification model.
@@ -115,7 +120,7 @@ Model evaluation: Supports analysis using accuracy, precision, recall, F1-score,
 Interactive interface: Allows users to upload images through Streamlit.
 Modular implementation: Separates data loading, model training, and application inference.
 
-##⚙️ How It Works
+## ⚙️ How It Works
 
 The system follows these steps:
 1. Image upload: The user selects an image through the application.
@@ -150,25 +155,3 @@ streamlit run app.py
 Open the Streamlit link in browser
 Upload an image
 Image → Preprocessing → my_model.keras → FAKE / REAL
-
-## ⚠️ Challenges and Limitations
-
-False predictions: Real images may be classified as FAKE, and fake images may be classified as REAL.
-Dataset dependency: Results depend on the quality, diversity, and labels of the training data.
-Generalization: A model trained on particular datasets may struggle with unfamiliar image-generation methods.
-Computational cost: Deep learning training may be slow on CPU-only systems.
-Confidence interpretation: A high model score does not guarantee that an image is authentic or manipulated.
-Limited scope: The current project classifies still images; video-level temporal analysis is outside its scope unless separately implemented.
-
-
-## 📸 Screenshots
-
-<img width="1033" height="820" alt="image" src="https://github.com/user-attachments/assets/75be3479-414c-41e6-aaef-afab799ef321" />
-<img width="1074" height="806" alt="2" src="https://github.com/user-attachments/assets/779219b6-f486-4955-981f-991b8394248c" />
-<img width="1030" height="793" alt="3" src="https://github.com/user-attachments/assets/cffb1079-dcd3-491f-854a-92843edd8141" />
-
-
-## ⚠️ Disclaimer
-
-This project is developed for **educational and research purposes**. DeepFake detection models may not be perfectly accurate, especially when dealing with unseen manipulation techniques or high-quality synthetic images.
-
