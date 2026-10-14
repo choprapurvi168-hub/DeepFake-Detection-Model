@@ -156,7 +156,7 @@ Open the Streamlit link in browser
 Upload an image
 Image → Preprocessing → my_model.keras → FAKE / REAL
 ```
-## INTERFACE
+## ⭐ APPLICATION INTERFACE
 <img width="1268" height="814" alt="1" src="https://github.com/user-attachments/assets/71747df1-3eca-417f-b75c-c9767e283964" />
 <img width="1074" height="806" alt="2" src="https://github.com/user-attachments/assets/41829912-5e0d-49f2-932a-319ae20253e6" />
 <img width="1030" height="793" alt="3" src="https://github.com/user-attachments/assets/fc445b95-a5f3-43fb-8a11-16e2d71edcda" />
