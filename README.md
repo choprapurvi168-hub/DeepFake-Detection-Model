@@ -155,3 +155,13 @@ streamlit run app.py
 Open the Streamlit link in browser
 Upload an image
 Image → Preprocessing → my_model.keras → FAKE / REAL
+
+
+## 📂 Dataset
+
+The project uses two image categories:
+
+1. REAL: Images labelled as authentic in the selected dataset.
+2. FAKE: Images labelled as synthetic or manipulated in the selected dataset.
+
+The images are organized into labelled classes so that the model can learn from examples.
